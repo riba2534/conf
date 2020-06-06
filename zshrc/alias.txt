@@ -1,0 +1,4 @@
+alias clgit="git checkout -f && git clean -xdf"
+alias prgit="git remote prune origin"
+alias open_proxy="export http_proxy=127.0.0.1:1081 https_proxy=127.0.0.1:1081"
+export PATH=$PATH:/usr/local/go/bin:/home/riba2534/go/bin
